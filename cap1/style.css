@@ -1,0 +1,20 @@
+.container {
+  margin-top: 20px; }
+  .container .hello {
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #75bfff; }
+    .container .hello .h1 {
+      display: inline-block;
+      color: white;
+      text-align: center; }
+    .container .hello button {
+      display: inline-block;
+      background-color: transparent;
+      border: none;
+      outline: none; }
+
+/*# sourceMappingURL=style.css.map */

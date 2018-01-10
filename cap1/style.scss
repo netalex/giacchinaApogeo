@@ -9,7 +9,7 @@ $colorbg: #1d99c5;
   margin-top: 20px;
   .hello{
     text-align: center;
-    @@include border-radius(10px);
+    @include border-radius(10px);
     background-color: #75bfff;
     .h1{
       display: inline-block;
