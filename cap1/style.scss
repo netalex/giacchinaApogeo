@@ -5,9 +5,22 @@ $colorbg: #1d99c5;
   -ms-border-radius: $radius;
   border-radius: $radius;
 }
-.example {
-  div{
-    color: $colorbg;
+.container{
+  margin-top: 20px;
+  .hello{
+    text-align: center;
     @@include border-radius(10px);
+    background-color: #75bfff;
+    .h1{
+      display: inline-block;
+      color: white;
+      text-align: center;
+    }
+    button{
+      display: inline-block;
+      background-color: transparent;
+      border: none;
+      outline: none;
+    }
   }
 }
