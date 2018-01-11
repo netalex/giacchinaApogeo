@@ -1,6 +1,11 @@
+interface Hello {
+  name:string;
+  surname:string;
+}
+
 let obj = {name:'Mario', surname:'Rossi'};
 
-function helloWorld(obj:{name:string, surname:string}):void{
+function helloWorld(obj:Hello):void{
   console.log(`ciao ${obj.name} ${obj.surname}`);
 }
 
