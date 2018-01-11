@@ -3,3 +3,7 @@ let closet = class {
     this.shoes=shoes;
   }
 };
+/*
+let pippo = new closet();
+pippo.shoes=90;
+*/
