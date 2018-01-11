@@ -1,6 +1,5 @@
-let a:any=8;
+var a = 8;
 a = 'ciao';
-
-let obj ={};
-let b:any = obj;
+var obj = {};
+var b = obj;
 console.log(b.stampa()); //does'nt exist but no error
