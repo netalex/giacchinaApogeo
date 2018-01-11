@@ -8,5 +8,5 @@ console.log(
 /*
 $ tsc 5-3_enum.ts
 $ node 5-3_enum.js
-0 2
+5 7
 */
