@@ -7,9 +7,10 @@ var Friends;
 ;
 var a = Friends.Salvo;
 var b = Friends.Alessandro;
-console.log(a, b);
+var c = Friends[6];
+console.log(a, b, c);
 /*
 $ tsc 5-3_enum.ts
 $ node 5-3_enum.js
-0 2
+5 7
 */
