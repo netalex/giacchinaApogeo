@@ -16,8 +16,14 @@ closet.prototype.putShoes = function(num){
 obj.putShoes(90);
 console.log(obj);
 
+Object.prototype.hello = function(){console.log('ciao');};
+let s='stringa';
+console.log(s.hello(),s.__proto__.__proto__.hello());
+console.log(s.valueOf(), s.hello())
 /*
 closet {shoes: 90, empty: ƒ}
-VM1644:10 closet {shoes: 0, empty: ƒ}
-VM1644:17 closet {shoes: 90, empty: ƒ}
+closet {shoes: 0, empty: ƒ}
+closet {shoes: 90, empty: ƒ}
+ciao
+stringa
 */
