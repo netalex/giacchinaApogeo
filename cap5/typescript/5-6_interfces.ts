@@ -3,11 +3,15 @@ interface Hello {
   surname?:string;
 }
 
+interface Fhello {
+  (obj:Hello):void;
+}
+
 let obj = {name:'Mario', surname:'brambilla'};
 let obj2 = {name:'Madonna'}
 
-function helloWorld(obj:Hello):void{
-  console.log(`ciao ${obj.name} ${obj.surname}`);
+let helloWorld:Fhello = function(obj:Hello):void{
+  console.log(`ciao ${obj.name}`)
 }
 
 helloWorld(obj);
@@ -25,4 +29,8 @@ $ tsc 5-6_interfces.ts
     $ node 5-6_interfces.js
     ciao Mario brambilla
     ciao Madonna undefined
+
+    $ node 5-6_interfces.js
+ciao Mario
+ciao Madonna
 */
