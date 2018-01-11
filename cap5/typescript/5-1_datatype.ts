@@ -16,6 +16,12 @@ console.log(p2);
 let p3:[number, string, number]=[3, "Rossi", 90, 2, 1, "Bianchi"];
 console.log(p3);
 
+let x:[number,string]=[90, "Rossi"];
+let test = x[1].toUpperCase();
+for(let y of x){
+  console.log(y.toUpperCase());
+}
+
 
 /*
 Alessandros-MacBook-Pro:typescript netalex$ tsc 5-1_datatype.ts
@@ -24,4 +30,9 @@ Alessandros-MacBook-Pro:typescript netalex$ node 5-1_datatype.js
 [ 'Rossi', 'Ferrari', 'Bianchi' ]
 [ 'Rossi', 'Ferrari', 'Bianchi' ]
 [ 3, 'Rossi', 90, 2, 1, 'Bianchi' ]
+
+
+$ tsc 5-1_datatype.ts
+5-1_datatype.ts(22,17): error TS2339: Property 'toUpperCase' does not exist on type 'string | number'.
+  Property 'toUpperCase' does not exist on type 'number'.
 */
