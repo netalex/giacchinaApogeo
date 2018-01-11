@@ -1,4 +1,4 @@
-enum Friends {Salvo, Ivana, Alessandro};
+enum Friends {Salvo=5, Ivana, Alessandro};
 let a:Friends = Friends.Salvo;
 let b:Friends = Friends.Alessandro;
 console.log(
