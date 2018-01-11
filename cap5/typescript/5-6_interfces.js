@@ -1,4 +1,4 @@
-var obj = { name: 'Mario', surname: 'Rossi' };
+var obj = { name: 'Mario', surname: 123 };
 function helloWorld(obj) {
     console.log("ciao " + obj.name + " " + obj.surname);
 }
