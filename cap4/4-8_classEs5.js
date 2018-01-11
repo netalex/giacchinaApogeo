@@ -11,6 +11,6 @@ console.log(obj);
 
 
 /*
-closet {shoes: 90}shoes: 90__proto__: Object
-
+closet {shoes: 90, empty: ƒ}
+closet {shoes: 0, empty: ƒ}
 */
