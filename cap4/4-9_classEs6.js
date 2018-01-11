@@ -5,6 +5,9 @@ let closet = class {
   empty(){
     this.shoes=0;
   }
+  static getShoes(shoes){
+    return shoes;
+  }
 };
 /*
 let pippo=new closet(90)
