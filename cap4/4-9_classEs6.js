@@ -37,4 +37,9 @@ pippo.shoes
 pippo.empty()
 pippo.shoes
 > 0
+
+scaffale.setJackets(34)
+scaffale.total()
+> total:
+> 12 " - " 34
 */
