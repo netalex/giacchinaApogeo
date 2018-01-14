@@ -28,13 +28,9 @@ var b = /** @class */ (function (_super) {
     return b;
 }(a));
 var inst = new b(90);
-inst.halfVal = 0;
 console.log(inst.getHalf());
 /*
 
-$ tsc 5-10.1_classInterfaceExtendsError.ts
-5-10.1_classInterfaceExtendsError.ts(19,7): error TS2420: Class 'b' incorrectly implements interface 'Ib'.
-  Property 'halfVal' is private in type 'b' but not in type 'Ib'.
-5-10.1_classInterfaceExtendsError.ts(30,6): error TS2341: Property 'halfVal' is private and only accessible within class 'b'.
-
+$ tsc 5-10.2_classInterfaceExtendsReadonly.ts
+5-10.2_classInterfaceExtendsReadonly.ts(30,6): error TS2540: Cannot assign to 'halfVal' because it is a constant or a read-only property.
 */

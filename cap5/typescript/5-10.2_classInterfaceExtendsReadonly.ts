@@ -5,7 +5,7 @@ interface Ia {
 }
 
 interface Ib extends Ia {
-  halfVal:number;
+  readonly halfVal:number;
   getHalf():number;
 }
 
@@ -27,7 +27,6 @@ class b extends a implements Ib {
   }
 }
 let inst = new b(90);
-inst.halfVal=0;
 console.log(inst.getHalf());
 
 
