@@ -1,4 +1,5 @@
 {
+  "compileOnSave": true,
   "compilerOptions":{
     "baseUrl": "",
     "emitDecoratorMetadata": true,
@@ -7,12 +8,12 @@
     "mapRoot": "./",
     "module": "es6",
     "moduleResolution":"node",
-    "outDir": "../dist/out-tsc",
+    "outDir": ".",
     "sourceMap": true,
     "target": "es5",
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "typeRoots": ["../node_modules/@types"]
+    "typeRoots": ["../cap2/helloW/node_modules/@types"]
   }
 }
