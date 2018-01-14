@@ -10,11 +10,20 @@ class a implements Ia {
     return this.val+10;
   }
   set valAcc(val:number){
-    this.val=val-10;
+    if(val){
+      this.val=this.val/2;
+      let pippo:string='setter used';
+      console.log(pippo);
+    } else {
+      console.log("setter doesn't work");
+    }
   }
 }
 let inst=new a(10);
-console.log(inst.valAcc);
+console.log('getter: ', inst.valAcc);
+//inst.valAcc2=10;
+console.log('setter: ', inst.valAcc=10);
+
 
 /*
 

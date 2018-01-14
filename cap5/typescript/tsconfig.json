@@ -10,7 +10,7 @@
     "moduleResolution":"node",
     "outDir": ".",
     "sourceMap": true,
-    "target": "es5",
+    "target": "ES5",
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
