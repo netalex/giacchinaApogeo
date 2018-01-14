@@ -32,6 +32,6 @@ console.log(inst.getHalf());
 
 /*
 
-$ tsc 5-10.2_classInterfaceExtendsReadonly.ts
-5-10.2_classInterfaceExtendsReadonly.ts(30,6): error TS2540: Cannot assign to 'halfVal' because it is a constant or a read-only property.
+no error
+
 */
