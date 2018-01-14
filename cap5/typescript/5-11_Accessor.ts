@@ -18,7 +18,7 @@ console.log(inst.valAcc);
 
 /*
 
-$ tsc --target ES2016 5-11_Accessor.ts
+$ tsc --target ES5 5-11_Accessor.ts
 $ node 5-11_Accessor.js
 20
 
