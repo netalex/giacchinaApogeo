@@ -8,3 +8,5 @@ var closet = /** @class */ (function () {
     return closet;
 }());
 ;
+var pippo = new closet(90);
+console.log(pippo.total());
