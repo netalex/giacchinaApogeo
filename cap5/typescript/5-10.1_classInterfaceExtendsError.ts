@@ -5,7 +5,7 @@ interface Ia {
 }
 
 interface Ib extends Ia {
-  private halfVal:number;
+  halfVal:number;
   getHalf():number;
 }
 
@@ -17,7 +17,7 @@ class a implements Ia {
 }
 
 class b extends a implements Ib {
-  halfVal:number;
+  private halfVal:number;
   constructor(val:number){
     super(val); //??
     this.halfVal=this.val/2;
@@ -34,7 +34,8 @@ console.log(inst.getHalf());
 /*
 
 $ tsc 5-10.1_classInterfaceExtendsError.ts
-5-10.1_classInterfaceExtendsError.ts(8,3):
-error TS1070: 'private' modifier cannot appear on a type member.
+5-10.1_classInterfaceExtendsError.ts(19,7): error TS2420: Class 'b' incorrectly implements interface 'Ib'.
+  Property 'halfVal' is private in type 'b' but not in type 'Ib'.
+5-10.1_classInterfaceExtendsError.ts(30,6): error TS2341: Property 'halfVal' is private and only accessible within class 'b'.
 
 */
