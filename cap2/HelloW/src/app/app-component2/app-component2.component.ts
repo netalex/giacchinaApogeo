@@ -9,10 +9,10 @@ export class AppComponent2Component {
 
   a:string='Somma';
   constructor(){
-    let testo=function(e:Event):string{
+    testo(e:Event):string{
       return '1+1';
     }
   }
 
 }
-// cannot correct this code!!!!
+// c“annot correct this code!!!!
