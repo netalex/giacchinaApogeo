@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Hello world';
+  title = '';
   constructor(){
     setTimeout(()=>{
       this.title='Hello World'
-    }, 2000)
+    }, 6000)
   }
 }
