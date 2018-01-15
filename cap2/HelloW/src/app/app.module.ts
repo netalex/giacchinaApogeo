@@ -7,11 +7,13 @@ import * as $ from 'jquery';
 
 
 import { AppComponent } from './app.component';
+import { AppComponent2Component } from './app-component2/app-component2.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AppComponent2Component
   ],
   imports: [
     BrowserModule,
