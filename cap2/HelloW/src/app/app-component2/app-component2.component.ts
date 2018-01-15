@@ -8,11 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent2Component {
 
   a:string='Somma';
-  constructor(){
-    testo(e:Event):string{
-      return '1+1';
-    }
+  testo(e:Event):string{
+    return '1+1';
   }
 
+
 }
+
+
 // c“annot correct this code!!!!
