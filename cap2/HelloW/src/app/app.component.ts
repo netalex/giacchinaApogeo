@@ -10,6 +10,6 @@ export class AppComponent {
   constructor(){
     setTimeout(()=>{
       this.title='Hello World'
-    }, 6000)
+    }, 2000)
   }
 }

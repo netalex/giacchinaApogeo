@@ -20,4 +20,19 @@
 
 <h1>
   {{title}}
+
+  <div class="el" #elemento>
+    pippo
+  </div>
+  {{elemento.value}}
+  {{elemento.input}}
 </h1>
+
+<!-- <div class="el" #element [input]="'hello'" >HelloW</div>
+{{ element.input }} -->
+
+<input type="text" #color placeholder="Hex color value">
+<button >
+Show color
+</button>
+color value {{color}}
