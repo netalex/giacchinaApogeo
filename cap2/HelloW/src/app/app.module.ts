@@ -13,6 +13,7 @@ import { PipeExampleComponent } from './pipe-example/pipe-example.component';
 import { AsyncComponent } from './async/async.component';
 import { SliceComponent } from './slice/slice.component';
 import { JsonComponent } from './json/json.component';
+import { CustomComponent } from './custom/custom.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { JsonComponent } from './json/json.component';
     PipeExampleComponent,
     AsyncComponent,
     SliceComponent,
-    JsonComponent
+    JsonComponent,
+    CustomComponent
   ],
   imports: [
     BrowserModule,
