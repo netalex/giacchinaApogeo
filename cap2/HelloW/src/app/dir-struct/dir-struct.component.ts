@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
 export class DirStructComponent  {
   title2:String;
   array3:Array<any> = [{number:1},{number:2},{number:3},{number:4},{number:5}];
-  name:string='Mario'
+  name:string='Mario';
+  color:string;
   constructor() {
     setTimeout(()=>{
       this.title2='Ciao Mondo';

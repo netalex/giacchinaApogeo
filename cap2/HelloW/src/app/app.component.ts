@@ -7,9 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = '';
+  color2:String;
   constructor(){
     setTimeout(()=>{
       this.title='Hello World'
-    }, 2000)
+    }, 2000);
+    setTimeout(()=>{
+      this.color2='green';
+    },2000);
   }
 }
