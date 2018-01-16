@@ -14,6 +14,7 @@ import { AsyncComponent } from './async/async.component';
 import { SliceComponent } from './slice/slice.component';
 import { JsonComponent } from './json/json.component';
 import { CustomComponent } from './custom/custom.component';
+import { HelloPipe } from './custom/custom.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { CustomComponent } from './custom/custom.component';
     AsyncComponent,
     SliceComponent,
     JsonComponent,
-    CustomComponent
+    CustomComponent,
+    HelloPipe
   ],
   imports: [
     BrowserModule,
