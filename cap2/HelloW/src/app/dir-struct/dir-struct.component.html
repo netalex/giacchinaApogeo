@@ -1,6 +1,15 @@
-<p>
-ngIf
-</p>
+<h1> <small>ngIf</small></h1>
 <h2 *ngIf="title2">{{title2}}</h2>
-<p>ngFor</p>
+<h1> <small>ngFor</small></h1>
 <h2 *ngFor="let i of array3">{{i.number}}</h2>
+<h1> <small>ngSwitch:</small></h1>
+<h2>
+  <div [ngSwitch]="name">
+    <span *ngSwitchCase="'Mario'">
+      {{name}}
+    </span>
+    <span *ngSwitchCase="'Carlo'">
+      {{name}}
+    </span>
+  </div>
+</h2>
