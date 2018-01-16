@@ -12,6 +12,7 @@ import { DateExampleComponent } from './date-example/date-example.component';
 import { PipeExampleComponent } from './pipe-example/pipe-example.component';
 import { AsyncComponent } from './async/async.component';
 import { SliceComponent } from './slice/slice.component';
+import { JsonComponent } from './json/json.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { SliceComponent } from './slice/slice.component';
     DateExampleComponent,
     PipeExampleComponent,
     AsyncComponent,
-    SliceComponent
+    SliceComponent,
+    JsonComponent
   ],
   imports: [
     BrowserModule,
