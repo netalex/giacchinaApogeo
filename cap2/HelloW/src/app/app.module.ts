@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -15,6 +16,7 @@ import { SliceComponent } from './slice/slice.component';
 import { JsonComponent } from './json/json.component';
 import { CustomComponent } from './custom/custom.component';
 import { HelloPipe } from './custom/custom.component';
+import { DirStructComponent } from './dir-struct/dir-struct.component';
 
 
 @NgModule({
@@ -27,9 +29,11 @@ import { HelloPipe } from './custom/custom.component';
     SliceComponent,
     JsonComponent,
     CustomComponent,
-    HelloPipe
+    HelloPipe,
+    DirStructComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     FormsModule,
     HttpModule

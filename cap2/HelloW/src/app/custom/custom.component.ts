@@ -13,6 +13,6 @@ export class CustomComponent {
 @Pipe({name:'hello'})
 export class HelloPipe implements PipeTransform{
   transform(name:number, args:[string]):string{
-    return `Hello ${name} ${args}`;
+    return `Hello ${name} ${args[0]}`;
   }
 }
