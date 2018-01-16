@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-app-component2',
-  template: `<h1>{{a+' '+testo()}} = {{1+one()}}</h1>`,
+  template: `<h1>{{a+' '}} = {{1+one()}}</h1>`,
   styleUrls: ['./app-component2.component.css']
 })
 export class AppComponent2Component {
