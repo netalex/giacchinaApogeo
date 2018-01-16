@@ -2,14 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-date-example',
-  templateUrl: './date-example.component.html',
+  template:'<div>{{now}}</div>',
   styleUrls: ['./date-example.component.css']
 })
-export class DateExampleComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class DateExampleComponent  {
+  now:Date;
+  constructor() { this.now = new Date(); }
 }
