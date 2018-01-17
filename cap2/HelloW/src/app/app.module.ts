@@ -43,7 +43,7 @@ import { ChildNameUser } from "./name-user/name-user.component";
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [], //global providers
   bootstrap: [AppComponent]
 })
 export class AppModule { }
