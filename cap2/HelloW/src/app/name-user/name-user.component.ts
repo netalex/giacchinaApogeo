@@ -16,3 +16,15 @@ export class NameUserComponent {
   }
 
 }
+
+@Component({
+  selector: 'child-name-user',
+  template:'<p>bye!</p>',
+  providers:[SurnameService]
+})
+export class ChildNameUser {
+  constructor(s:SurnameService){
+    alert(4+' child name user');
+    console.log(s);
+  }
+}
