@@ -17,7 +17,7 @@ import { JsonComponent } from './json/json.component';
 import { CustomComponent } from './custom/custom.component';
 import { HelloPipe } from './custom/custom.component';
 import { DirStructComponent } from './dir-struct/dir-struct.component';
-
+import { HelloDirectiveDirective } from './hello-directive.directive';
 
 @NgModule({
   declarations: [
@@ -30,7 +30,8 @@ import { DirStructComponent } from './dir-struct/dir-struct.component';
     JsonComponent,
     CustomComponent,
     HelloPipe,
-    DirStructComponent
+    DirStructComponent,
+    HelloDirectiveDirective
   ],
   imports: [
     CommonModule,
