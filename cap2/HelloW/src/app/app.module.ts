@@ -20,6 +20,7 @@ import { DirStructComponent } from './dir-struct/dir-struct.component';
 import { HelloDirectiveDirective } from './hello-directive.directive';
 import { NameUserComponent } from './name-user/name-user.component';
 import { ChildNameUser } from "./name-user/name-user.component";
+import { PersonComponent } from './person/person.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ChildNameUser } from "./name-user/name-user.component";
     DirStructComponent,
     HelloDirectiveDirective,
     NameUserComponent,
-    ChildNameUser
+    ChildNameUser,
+    PersonComponent
   ],
   imports: [
     CommonModule,
