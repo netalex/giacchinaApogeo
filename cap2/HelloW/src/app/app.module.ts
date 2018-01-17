@@ -18,6 +18,7 @@ import { CustomComponent } from './custom/custom.component';
 import { HelloPipe } from './custom/custom.component';
 import { DirStructComponent } from './dir-struct/dir-struct.component';
 import { HelloDirectiveDirective } from './hello-directive.directive';
+import { NameUserComponent } from './name-user/name-user.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { HelloDirectiveDirective } from './hello-directive.directive';
     CustomComponent,
     HelloPipe,
     DirStructComponent,
-    HelloDirectiveDirective
+    HelloDirectiveDirective,
+    NameUserComponent
   ],
   imports: [
     CommonModule,
